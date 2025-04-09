@@ -1,0 +1,86 @@
+/* Contenedor principal */
+.beneficiaries-container {
+  max-width: 1000px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Título */
+.title {
+  text-align: center;
+  color: #1B3059;
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+}
+
+/* Barra de búsqueda */
+.search-bar {
+  margin-bottom: 20px;
+  text-align: right;
+}
+
+.search-input {
+  padding: 10px;
+  width: 300px;
+  border: 1px solid #d1e8f2;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.search-input:focus {
+  border-color: #4a90e2;
+  outline: none;
+  box-shadow: 0 0 5px rgba(74, 144, 226, 0.5);
+}
+
+/* Tabla de beneficiarios */
+.beneficiaries-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.beneficiaries-table th, .beneficiaries-table td {
+  padding: 15px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.beneficiaries-table th {
+  background-color: #4a90e2;
+  color: white;
+}
+
+.beneficiaries-table tr:hover {
+  background-color: #f1f1f1;
+}
+
+/* Botones */
+.btn {
+  padding: 8px 12px;
+  font-size: 0.9rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-favorite {
+  background-color: #4a90e2;
+  color: white;
+}
+
+.btn-favorite:hover {
+  background-color: #356cb5;
+}
+
+/* Texto cuando no hay beneficiarios */
+.no-beneficiaries {
+  text-align: center;
+  font-size: 1.1rem;
+  color: #777;
+  margin-top: 20px;
+}

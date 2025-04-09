@@ -1,0 +1,69 @@
+/* Contenedor principal */
+.user-profile-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-image: url('cuidados.webp');
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Título */
+  .title {
+    text-align: center;
+    color: #1B3059;
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+  }
+  
+  /* Formulario de perfil */
+  .profile-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Campo de entrada */
+  .input-field, .textarea-field {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #d1e8f2;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  .input-field:focus, .textarea-field:focus {
+    border-color: #4a90e2;
+    outline: none;
+    box-shadow: 0 0 5px rgba(74, 144, 226, 0.5);
+  }
+  
+  /* Campo de texto largo (textarea) */
+  .textarea-field {
+    height: 100px;
+    resize: none;
+  }
+  
+  /* Botón de guardar cambios */
+  .btn-submit {
+    padding: 10px;
+    background-color: #4a90e2;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-submit:hover {
+    background-color: #356cb5;
+  }
+  
+  /* Calificación */
+  .rating {
+    font-size: 1.2rem;
+    color: #ffcc00;
+    text-align: center;
+    margin-top: 10px;
+  }
+  

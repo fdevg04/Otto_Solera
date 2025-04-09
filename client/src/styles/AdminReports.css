@@ -1,0 +1,117 @@
+/* Contenedor principal */
+.reports-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Título */
+  .title {
+    text-align: center;
+    color: #1B3059;
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+  }
+  
+  /* Sección de estadísticas */
+  .statistics-section p {
+    font-size: 1.1rem;
+    margin: 10px 0;
+  }
+  
+  /* Botones de exportación */
+  .export-buttons {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .btn-export {
+    padding: 10px 15px;
+    background-color: #4a90e2;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-export:hover {
+    background-color: #356cb5;
+  }
+  
+  /* Formulario de filtros */
+  .filters-form {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group label {
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  input[type="date"],
+  input[type="number"],
+  input[type="text"] {
+    padding: 10px;
+    border: 1px solid #d1e8f2;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  input:focus {
+    border-color: #4a90e2;
+    outline: none;
+    box-shadow: 0 0 5px rgba(74, 144, 226, 0.5);
+  }
+  
+  /* Botón de filtros */
+  .btn-filter {
+    padding: 10px;
+    background-color: #4a90e2;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    grid-column: span 2;
+    font-size: 1.1rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-filter:hover {
+    background-color: #356cb5;
+  }
+  
+  /* Tabla de donaciones */
+  .donations-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .donations-table th, .donations-table td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .donations-table th {
+    background-color: #4a90e2;
+    color: white;
+  }
+  
+  .donations-table tr:hover {
+    background-color: #f1f1f1;
+  }
+  

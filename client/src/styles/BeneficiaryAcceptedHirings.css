@@ -1,0 +1,85 @@
+/* Contenedor principal */
+.accepted-hirings-container {
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Título */
+  .title {
+    text-align: center;
+    color: #1B3059;
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+  }
+  
+  /* Tabla de contrataciones */
+  .hirings-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .hirings-table th, .hirings-table td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .hirings-table th {
+    background-color: #4a90e2;
+    color: white;
+  }
+  
+  .hirings-table tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  /* Título de reseña */
+  .review-title {
+    margin-bottom: 10px;
+    color: #1B3059;
+  }
+  
+  /* Área de texto para la reseña */
+  .textarea-feedback {
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #d1e8f2;
+  }
+  
+  .textarea-feedback:focus {
+    outline: none;
+    border-color: #4a90e2;
+  }
+  
+  /* Select de puntuación */
+  .rating-select {
+    padding: 5px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #d1e8f2;
+  }
+  
+  /* Botón de enviar */
+  .btn-submit {
+    padding: 10px;
+    background-color: #4a90e2;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-submit:hover {
+    background-color: #356cb5;
+  }
+  

@@ -1,0 +1,75 @@
+/* Contenedor principal */
+.edit-caregiver-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Título */
+  .edit-caregiver-container h2 {
+    text-align: center;
+    color: #1b3059;
+    margin-bottom: 20px;
+    font-size: 2rem;
+    font-weight: 600;
+  }
+  
+  /* Estilos del formulario */
+  .edit-caregiver-container form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .edit-caregiver-container input {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #d1e8f2;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  .edit-caregiver-container input:focus {
+    border-color: #4a90e2;
+    outline: none;
+    box-shadow: 0 0 5px rgba(74, 144, 226, 0.5);
+  }
+  
+  /* Botón de guardar cambios */
+  .edit-caregiver-container button {
+    padding: 10px;
+    background-color: #4a90e2;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .edit-caregiver-container button:hover {
+    background-color: #357ab7;
+  }
+  
+  /* Estilos responsivos */
+  @media (max-width: 768px) {
+    .edit-caregiver-container {
+      padding: 15px;
+    }
+  
+    .edit-caregiver-container h2 {
+      font-size: 1.8rem;
+    }
+  
+    .edit-caregiver-container input {
+      padding: 8px;
+    }
+  
+    .edit-caregiver-container button {
+      font-size: 0.9rem;
+      padding: 8px;
+    }
+  }
+  

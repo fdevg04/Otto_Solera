@@ -1,0 +1,98 @@
+/* Contenedor principal */
+.request-review-container {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Título */
+  .title {
+    text-align: center;
+    color: #1b3059;
+    margin-bottom: 20px;
+    font-size: 2rem;
+    font-weight: 600;
+  }
+  
+  /* Tabla de evaluaciones */
+  .feedbacks-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .feedbacks-table th,
+  .feedbacks-table td {
+    border: 1px solid #e0e0e0;
+    padding: 15px;
+    text-align: center;
+  }
+  
+  .feedbacks-table th {
+    background-color: #4a90e2;
+    color: white;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+  
+  .feedbacks-table td {
+    background-color: #ffffff;
+  }
+  
+  /* Mensaje de error */
+  .error-message {
+    color: #f44336;
+    text-align: center;
+    margin: 20px 0;
+    font-size: 1rem;
+  }
+  
+  /* Mensaje de carga */
+  .loading-message {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #1b3059;
+  }
+  
+  /* Mensaje si no hay feedbacks */
+  .no-feedbacks {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #333;
+    margin-top: 20px;
+  }
+  
+  /* Botón para solicitar revisión */
+  .btn-request-review {
+    padding: 10px 15px;
+    background-color: #4a90e2;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-request-review:hover {
+    background-color: #357ab7;
+  }
+  
+  /* Estilos responsivos */
+  @media (max-width: 768px) {
+    .feedbacks-table th, .feedbacks-table td {
+      padding: 10px;
+    }
+  
+    .title {
+      font-size: 1.6rem;
+    }
+  
+    .btn-request-review {
+      font-size: 0.9rem;
+      padding: 8px 10px;
+    }
+  }
+  

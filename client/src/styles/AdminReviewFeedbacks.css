@@ -1,0 +1,88 @@
+/* Contenedor principal */
+.feedbacks-container {
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Título */
+  .title {
+    text-align: center;
+    color: #1B3059;
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+  }
+  
+  /* Tabla */
+  .feedbacks-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .feedbacks-table th, .feedbacks-table td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .feedbacks-table th {
+    background-color: #4a90e2;
+    color: white;
+  }
+  
+  .feedbacks-table tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  /* Botones */
+  .btn {
+    padding: 8px 12px;
+    font-size: 0.9rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-approve {
+    background-color: #4a90e2;
+    color: white;
+  }
+  
+  .btn-approve:hover {
+    background-color: #356cb5;
+  }
+  
+  .btn-delete {
+    background-color: #e74c3c;
+    color: white;
+  }
+  
+  .btn-delete:hover {
+    background-color: #c0392b;
+  }
+  
+  /* Texto de carga y errores */
+  .loading-text {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #4a90e2;
+  }
+  
+  .error-text {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #e74c3c;
+  }
+  
+  .no-feedback-text {
+    text-align: center;
+    font-size: 1.1rem;
+    color: #777;
+  }
+  
